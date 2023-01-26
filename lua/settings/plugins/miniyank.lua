@@ -1,0 +1,12 @@
+--"map p <Plug>(miniyank-autoput)
+--"map P <Plug>(miniyank-autoPut)
+--"" directly put the most recent item in the shared history
+--"map <leader>p <Plug>(miniyank-startput)
+--"map <leader>P <Plug>(miniyank-startPut)
+--"" right after a put, use cycle to go through history
+--"map <leader>n <Plug>(miniyank-cycle)
+--"map <leader>N <Plug>(miniyank-cycleback)
+--"" change type
+--"map <leader>c <Plug>(miniyank-tochar)
+--"map <leader>l <Plug>(miniyank-toline)
+--"map <leader>b <Plug>(miniyank-toblock)

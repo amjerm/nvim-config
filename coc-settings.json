@@ -1,0 +1,25 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "rust",
+    "vim",
+    "lua",
+    "json",
+    "sql"
+  ],
+  "diagnostic.virtualText": true,
+  "suggest.virtualText": true,
+  "intelephense.licenceKey": "00X4DEE3J8RY9D5",
+  "languageserver": {
+    "dockerfile": {
+      "command": "docker-langserver",
+      "filetypes": ["dockerfile"],
+      "args": ["--stdio"]
+    }
+  },
+  "Lua.telemetry.enable": true,
+  "rust-analyzer.inlayHints.chainingHints.enable": true
+}
